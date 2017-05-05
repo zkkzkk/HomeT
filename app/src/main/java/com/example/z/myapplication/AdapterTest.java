@@ -14,6 +14,7 @@ public class AdapterTest extends FragmentPagerAdapter
     public AdapterTest(FragmentManager fm, List<Fragment> mDatas)
     {
         super(fm);
+
         this.mDatas = mDatas;
     }
 
